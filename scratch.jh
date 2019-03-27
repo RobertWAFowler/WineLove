@@ -1,0 +1,14 @@
+enum Type {
+	WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
+}
+
+entity Ingredient {
+	name String
+	type Type
+}
+
+entity Taco {
+	name String
+}
+
+
